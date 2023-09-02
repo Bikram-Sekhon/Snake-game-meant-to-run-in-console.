@@ -17,9 +17,9 @@ void ShowConsoleCurson(bool showFlag){
     it become true, and game stops and control moves to if statement, which prints the 
     snake in gameover condition, and asks if player want to replay or quit. If player opts to replay
      it runs systemSetup() function which resets all the variables to preset defaults along with
-    setting bool gameOver = false, making the while loop run again. */
+    setting bool gameOver = false, making the while loop run again.. */
 void gameRunning(){
-    
+     
     while(!gameOver){
         ShowConsoleCurson(false);
         gameLayout(); 
