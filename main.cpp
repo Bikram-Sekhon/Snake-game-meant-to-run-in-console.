@@ -21,6 +21,7 @@ void ShowConsoleCurson(bool showFlag){
 void gameRunning(){
     
     while(!gameOver){
+        ShowConsoleCurson(false);
         gameLayout(); 
         snakeMovement();
         snakeLocation();
